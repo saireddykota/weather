@@ -1,0 +1,40 @@
+h1 {color:white;
+    text-align:center;
+    background-color: lightblue;
+    padding:30px;
+    margin-top:opx;
+
+}
+
+.main{color:red;
+    text-align:center;
+    border:2px solid #d7d7d7;
+    margin-top: 20px;
+
+}
+
+ul{
+    margin-left :0px;
+    list-style:none;
+    color:lightgray;
+    
+}
+span{
+    cursor: pointer;
+    position: relative;
+    margin-right :10px;
+    float: right;
+}
+li{
+    margin-left:0px;
+    border-bottom:0px;
+    background-color:none;
+}
+.add item{
+    position:relative;
+    padding-bottom:opx;
+    height:10px;
+}
+searchTerm{text-align:center;
+
+}

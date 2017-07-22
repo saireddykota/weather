@@ -1,0 +1,82 @@
+<div id ="container-fluid">
+<h1>
+  Weather App
+</h1>
+<input type ="text" [(ngModel)]=cityName>
+<button (click)=searchCity()>Search here</button>
+</div>
+
+
+<!--
+    <a routerLink="/child1">Child1</a>
+<router-outlet></router-outlet>
+{{sai.name}}
+<ul>
+ <li *ngFor = "let i of arr">{{i}}</li>
+</ul>
+<p *ngIf = "!isTrue"; else firstTemplate>Hello sai</p>-->
+
+<!--
+    <div class =main>
+    <div class = "addItem">
+<input [(ngModel)]="newItem" class="addtext">
+<button (click) ="pushItem()">Add</button>
+</div>
+<ul>
+ <li *ngFor = "let i of arr; let indx= index">
+     {{i}}
+     <span  (click)="removeItem(indx)">x</span></li>
+</ul>
+</div>-->
+<!--
+    <h3>
+    {{name |uppercase}}
+</h3>
+<h3>
+    {{name |lowercase}}
+</h3>
+<h3>
+    {{name}}
+</h3>
+
+{{date |date}}<br>
+{{date |date:'shortDate'}}<br>
+{{date |date:'fullDate'}}<br>
+{{date |date:'fullDate'|uppercase}}-->
+<!--
+{{arr | sort: 'ascending'}}-->
+<!--#userForm = "ngForm"
+(ngSubmit) = "onSubmit(userForm.value)"> -->
+
+<!--<form class="container"
+
+[formGroup] = "form"
+(ngSubmit) = "onSubmit(form.value)">
+    <input type ="text" name ="firstname">
+    <br>
+    <input type ="text" name ="lastname"><br>
+    <select name ="languages">
+     <option value = "c++">C++</option> 
+     <option value = "Angular">Angular 2</option> 
+     <option value = "angular 4">Angular 4</option> 
+     </select>
+       <br>
+       <input type ="submit" [disabled]= "!form.valid" value ="submit">
+       
+       </form>-->
+       
+       <!-- 
+           In angular we have two types of methods for fetching the data
+         Template driven form (everything will be done in the template) 
+         model driven form
+          -->
+
+        <!--  <form class = "container"
+          
+          [formGroup]="form">
+          <h1>Base Converter </h1>
+          <input type = "text" name ="decimal" (ngModelChange)="decimalChanged(oldValue, newValue=$event)" placeholder = "deci" formControlName="decimal"><br>
+           <input type = "text" name ="binary" (ngModelChange)="decimalChanged(oldValue, newValue=$event)" placeholder = "bi" formControlName="binary"><br>
+            <input type = "text" name ="octal" placeholder = "oct" ><br>
+             <input type = "text" name ="hexa" placeholder = "hex" >
+             </form> -->
