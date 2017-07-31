@@ -14,7 +14,7 @@ constructor(private http:Http){}
      cityName='';
     
 searchCity(){
-  this.http.get('http://api.openweathermap.org/data/2.5/weather?APPID=b02a71feefc4e03aec524630084f0c9c=' + this.cityName )
+  this.http.get('http://api.openweathermap.org/data/2.5/weather?APPID=b02a71feefc4e03aec524630084f0c9c&q=' + this.cityName )
   .subscribe(
     (res:Response)=>{
     const weatherCity =res.json();
